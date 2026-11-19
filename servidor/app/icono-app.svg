@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512">
+  <!-- Icono de la app: el Naranjo de Bulnes entre montañas -->
+  <defs><linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fb6dd"/><stop offset="1" stop-color="#f6e3c8"/></linearGradient></defs>
+  <rect width="64" height="64" fill="url(#cielo)"/>
+  <circle cx="49" cy="14" r="5" fill="#f2c14e"/>
+  <path fill="#a9b8c9" d="M0 42 L8 32 L13 36 L20 27 L26 33 L31 30 L35 36 L45 36 L50 28 L55 32 L60 26 L64 31 L64 48 L0 48 Z"/>
+  <path fill="#e3c9a0" stroke="#3b2c22" stroke-width=".6" d="M27 50 L29 29 L30.5 20 L33 15.5 L37 14.5 L39.5 17 L40.5 23 L41 33 L43 50 Z"/>
+  <path fill="#7fa36a" d="M0 64 L0 47 L10 44 L22 49 L34 46 L44 49 L54 45 L64 47 L64 64 Z"/>
+</svg>

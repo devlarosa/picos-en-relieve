@@ -1,0 +1,15 @@
+# Visor «Picos en relieve» como app web (pantalla de inicio del iPhone vía Tailscale).
+# Código: ~/mapas/picos3d/servidor/servidor.py — copia en el repo: servidor/picos3d-visor.service
+[Unit]
+Description=Picos en relieve: visor 3D como aplicación web (puerto 8801)
+After=network-online.target
+
+[Service]
+WorkingDirectory=%h/mapas/picos3d/servidor
+ExecStart=/usr/bin/python3 servidor.py --puerto 8801 --host 0.0.0.0
+Environment=PYTHONUNBUFFERED=1
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

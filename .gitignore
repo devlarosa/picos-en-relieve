@@ -1,0 +1,17 @@
+# Datos descargados y generados (se reconstruyen con scripts/descargar_datos.sh y R/10_preparar_web.R)
+raw/
+web/data/
+# Lista privada de lugares destacados
+destacados.json
+# R
+.Rhistory
+.RData
+.Rproj.user/
+# Python
+__pycache__/
+# Renders locales
+salida/
+# Mapas generados para 0 A.D. (se reconstruyen con juegos/0ad/generar_mapa_leon.R)
+juegos/0ad/user/
+publicar/
+publicar.zip
